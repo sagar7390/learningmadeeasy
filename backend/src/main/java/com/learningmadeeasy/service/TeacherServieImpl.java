@@ -3,9 +3,6 @@ package com.learningmadeeasy.service;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.List;
-import java.util.Map;
-
-import javax.persistence.EntityManager;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,7 +13,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.learningmadeeasy.DAO.TeacherDAOInterface;
-import com.learningmadeeasy.entity.Course;
 import com.learningmadeeasy.entity.Teacher;
 import com.learningmadeeasy.serializers.CourseSerializer;
 

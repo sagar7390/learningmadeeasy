@@ -23,8 +23,6 @@ public class CourseController {
 	@Autowired
 	private CourseServiceInterface courseServiceInterface;
 	
-
-
 	@GetMapping("/courses")
 	public String ShowAllCourses(){
 		return courseServiceInterface.showAllCourses();
@@ -42,7 +40,7 @@ public class CourseController {
 	
 	@GetMapping("/top10Courses")
 	public String top10Courses(){
-		return courseserviceinterface.top10Courses();
+		return courseServiceInterface.top10Courses();
 	}
 	
 	@GetMapping("/timeInformation/{courseId}")
